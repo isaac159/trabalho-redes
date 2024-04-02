@@ -1,0 +1,92 @@
+1- I)  A camada de Rede é responsável por transferir os pacotes da origem ao     destino,fornecer ligação entre as redes e recuperar erros.
+
+Esta afirmação está correta. A camada de rede é responsável por rotear pacotes entre diferentes redes, fornecendo conexões entre elas e tratando de questões como roteamento e controle de congestionamento. Também pode incluir funcionalidade de correção de erros, embora essa funcionalidade seja mais comumente associada à camada de enlace de dados.
+
+II) A camada de Enlace de dados é responsável por organizar bits em frames, comprimir os dados e fornecer entrega nó a nó.
+
+Esta afirmação está incorreta. A camada de Enlace de dados é responsável pela transmissão confiável de dados através de um único enlace de comunicação, organizando os bits em frames, detecção e, em alguns casos, correção de erros, controle de fluxo e controle de acesso ao meio. A compressão de dados e a entrega nó a nó são geralmente funções associadas a camadas superiores, como a camada de transporte.
+
+III) A camada de Transporte é responsável por prover a entrega confiável de mensagens de processo a processo, criptografar e comprimir os dados.
+
+Esta afirmação está parcialmente correta. A camada de Transporte é realmente responsável por fornecer comunicação de processo a processo, garantindo que os dados sejam entregues de forma confiável e ordenada, se necessário. No entanto, a criptografia e a compressão de dados geralmente não são funções associadas diretamente à camada de Transporte, mas sim a camadas superiores do modelo OSI, como a camada de Aplicação.
+
+2)
+Camada física:
+Esta camada lida com a transmissão física de dados através de meios de comunicação, como cabos, sinais elétricos ou ondas de rádio.
+Camada de enlace de dados:
+Responsável pela transmissão confiável de dados entre dispositivos adjacentes na mesma rede local. Ele também lida com controle de erros, controle de acesso à mídia e controle de fluxo.
+Camada de rede:
+Responsável pela comunicação entre diferentes redes. Ele roteia pacotes entre diferentes redes, decidindo a melhor rota de transmissão e resolvendo problemas como congestionamento.
+Camada de transporte:
+Fornece comunicação ponta a ponta para garantir a entrega confiável e ordenada de dados quando necessário. Controla o fluxo de dados e fornece detecção e correção de erros.
+Camada de sessão:
+Gerencie comunicações entre sistemas e estabeleça, mantenha e encerre conexões entre aplicativos.
+Camada de apresentação:
+Ele lida com a conversão, compactação e criptografia de dados para garantir que dispositivos em redes diferentes possam compreender as informações compartilhadas.
+Camada de aplicação:
+3 - a) Topologia em estrela: Nesta topologia, todos os dispositivos estão conectados a um hub central. Os dispositivos comunicam-se entre si apenas através do hub, simplificando a detecção de falhas e a manutenção, mas se o hub falhar, toda a rede será afetada.
+Topologia em anel: Cada dispositivo é conectado diretamente ao próximo dispositivo em um circuito fechado. Os dados são transmitidos em uma direção do anel. Essa topologia é muito eficiente em termos de uso de cabos, mas a falha de um único dispositivo pode atrapalhar toda a rede.
+Topologia em árvore: Esta topologia combina as características da topologia em estrela e em barramento. Os dispositivos são organizados em uma estrutura hierárquica e conectam múltiplas redes em estrela por meio de um hub central.
+Topologia de malha: nesta topologia, cada dispositivo está conectado a todos os outros dispositivos. Isso fornece redundância e robustez, pois os dados podem ser roteados por diversas rotas. No entanto, requer muito cabeamento e configuração.
+Topologia em Barramento: Todos os dispositivos são conectados a um único cabo, com terminadores nos extremos para evitar reflexões. Os dados são transmitidos para todos os dispositivos, mas apenas o dispositivo destinatário os aceita. Essa topologia é simples e econômica, mas pode ser vulnerável a falhas no cabo. 
+
+B) É importante considerar vários fatores, como tamanho da rede, tipo de tráfego, requisitos de desempenho, confiabilidade e orçamento disponível. Se a sua rede exigir alta confiabilidade e tolerância a falhas, uma topologia mesh pode ser a melhor escolha, pois fornece redundância. No entanto, se você estiver preocupado com o custo e quiser uma solução mais simples, uma topologia em estrela pode ser mais adequada. Considere a escalabilidade da rede. Se você deseja expandir sua rede no futuro, uma topologia em árvore pode ser mais flexível e mais fácil de expandir.
+Portanto, antes de tomar uma decisão, é importante avaliar suas necessidades específicas e consultar um especialista em redes para ajudar a determinar a melhor topologia para sua situação.
+
+4) A alternativa III está incorreta. Uma WAN (Wide Area Network) não é uma variação de uma LAN que usa tecnologia sem fio para conectar dispositivos em uma área geográfica limitada. Na verdade, uma WAN é uma rede de computadores que abrange uma grande área geográfica, como um país, um continente ou globalmente, conectando várias LANs e MANs em diferentes locais, geralmente por meio de conexões de longa distância, como linhas alugadas, circuitos de satélite ou conexões de rede pública
+
+5) Tamanho do endereço IP:
+IPv4: Utiliza endereços de 32 bits, permitindo um total de aproximadamente 4,3 bilhões de endereços únicos.
+IPv6: Utiliza endereços de 128 bits, permitindo um número virtualmente ilimitado de endereços únicos, cerca de 3.4 × 10^38 endereços.
+Espaço de endereçamento:
+IPv4: Devido ao seu espaço de endereçamento limitado, o IPv4 está esgotando seus endereços disponíveis devido à crescente demanda por dispositivos conectados à internet.
+IPv6: Foi desenvolvido para resolver o problema de esgotamento de endereços do IPv4, fornecendo um espaço de endereçamento praticamente ilimitado para suportar a crescente expansão da internet e a proliferação de dispositivos conectados.
+Notação de endereço:
+IPv4: É representado em notação decimal separada por pontos (por exemplo, 192.168.1.1).
+IPv6: É representado em notação hexadecimal separada por dois pontos (por exemplo, 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+Cabeçalho e funcionalidades adicionais:
+IPv6 possui um cabeçalho simplificado em comparação com o IPv4, bem como funcionalidades adicionais, como suporte nativo a segurança e melhorias na qualidade de serviço.
+O surgimento do IPv6 foi motivado principalmente pela iminente exaustão do espaço de endereçamento disponível no IPv4 e pela necessidade de suportar o crescimento exponencial da Internet, que resultou em um número cada vez maior de dispositivos conectados. IPv6 foi desenvolvido para fornecer um espaço de endereçamento vastamente expandido e introduzir melhorias de eficiência e segurança em comparação com o IPv4
+6)
+ O endereço IP fornecido (192.311.20.256) está fora do intervalo válido para um endereço IPv4. O último octeto de um endereço IPv4 deve ser um número entre 0 e 255. No endereço fornecido, o octeto "311" e "256" estão fora desse intervalo, o que está causando a não conexão do dispositivo.
+
+Para resolver o problema, você precisará atribuir um endereço IP válido dentro do intervalo correto. Você pode tentar atribuir um endereço IP estático válido, como por exemplo: 192.168.1.100, desde que esse endereço não esteja em uso por outro dispositivo na mesma rede. Certifique-se de escolher um endereço IP dentro do intervalo permitido pelo seu roteador ou rede local. Após atribuir um endereço IP válido, o dispositivo deverá ser capaz de se conectar à rede.
+
+7) CIDR (Classless Inter-Domain Routing) é uma notação utilizada para representar o endereço IP e a máscara de sub-rede em um único formato, indicando quantos bits do endereço IP são utilizados para representar a rede. Nesse caso, o endereço IP 192.168.100.15/16 indica que os primeiros 16 bits são utilizados para representar a rede.
+O endereço IP pode ser representado como:192.168.0.0
+E a máscara de sub-rede pode ser representada como:
+255.255.0.0
+Isso significa que os primeiros 16 bits do endereço IP estão definidos como a parte da rede, e os últimos 16 bits são utilizados para identificar dispositivos dentro dessa rede.
+
+8) Para determinar o prefixo da rede IPv4 com base no endereço IP e na máscara fornecidos, siga estes passos:
+Converta o endereço IP e a máscara de sub-rede para binário.
+Endereço IP: 200.128.164.226
+200 = 11001000
+128 = 10000000
+164 = 10100100
+226 = 11100010
+Máscara de sub-rede: 255.255.255.192
+255 = 11111111
+255 = 11111111
+255 = 11111111
+192 = 11000000
+Aplique a máscara de sub-rede ao endereço IP binário.
+Endereço IP binário:
+11001000.10000000.10100100.11100010
+Máscara de sub-rede binária:
+11111111.11111111.11111111.11000000
+Aplicação da máscara:
+11001000.10000000.10100100.11100010
+11111111.11111111.11111111.11000000 (máscara de sub-rede)
+11001000.10000000.10100100.11000000
+Converta o resultado de volta para decimal.
+Endereço IP da rede: 200.128.164.192
+Portanto, o prefixo da rede IPv4 na qual o host está ligado é 200.128.164.192/26, onde "/26" indica que os primeiros 26 bits são usados para identificar a rede.
+9) Para calcular a máscara de sub-rede, considere que o prefixo /28 indica que os primeiros 28 bits são dedicados à rede. A máscara de sub-rede é composta por 28 bits definidos como "1" e os bits restantes como "0".
+O octeto correspondente aos 28 bits definidos é 11111111.11111111.11111111.11110000 em binário, que em decimal é 255.255.255.240. Portanto, a máscara de sub-rede é 255.255.255.240.
+
+b) Para calcular a quantidade de hosts suportados, observe que o número de bits restantes para os hosts é 32 (tamanho de um endereço IP) menos 28 (prefixo da rede), resultando em 4 bits para os hosts. Com 4 bits para os hosts, é possível representar 2^4 = 16 endereços.
+No entanto, dois desses endereços não podem ser usados: um para o endereço de rede (com todos os bits de host definidos como 0) e outro para o endereço de broadcast (com todos os bits de host definidos como 1). Portanto, restam 16 - 2 = 14 endereços para hosts.
+
+c) O endereço de broadcast é o endereço IP no qual todos os bits de host são definidos como 1. Para determinar o endereço de broadcast, vamos olhar para os últimos 4 bits do último octeto (28 - 24 = 4 bits de host).
+Os últimos 4 bits são 1111 em binário, que em decimal é 15. Portanto, o endereço de broadcast é 192.168.1.15.
